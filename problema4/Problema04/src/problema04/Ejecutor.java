@@ -5,12 +5,12 @@ public class Ejecutor {
 
     public static void main(String[] args) {
         
-        Cliente cliente = new Cliente("Luis Javier", "Mora Aguilar", 
-                "1102377895");
-        Banco banco = new Banco("Banco de Loja", 12);
+        Cliente cliente = new Cliente("Anthony Gabriel", "Celi Villalta", 
+                "1105575821");
+        Banco banco = new Banco("Banco Pichincha", 11);
         
         Cheque cheque01 = new Cheque();
-        Cheque cheque02 = new Cheque(cliente, banco, 456486.33);
+        Cheque cheque02 = new Cheque(cliente, banco, 293415.00);
         
         cheque01.calcularComision();
         cheque02.calcularComision();
